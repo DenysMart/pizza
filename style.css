@@ -1,0 +1,165 @@
+/************ GLOBAL STYLES *********/
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.section {
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background: #F5F5F5;
+
+
+}
+
+.card {
+    width: 277px;
+    height: 502px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+/************ SECTION TOP FOODS *********/
+.top-text {
+    color: var(--yeallow-brand-color, #FC0);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    justify-content: center;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+.main-text {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+
+
+}
+
+
+
+.name {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text {
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/************ SECTION OUR OUTLETS *********/
+
+
+
+
+
+
+
+
+.text {
+    color: var(--black-font-color, #231900);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.icon {
+    width: 20.427px;
+    height: 32.875px;
+    display: block;
+
+}
+
+.product {
+    width: 275px;
+    margin-bottom: 100px;
+
+}
+
+.three-in-row {
+    width: 380px;
+    height: 563px;
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+.yellow {
+    background: #FFCC00;
+    height: 400px;
+}
+
+.yellow-card {
+    width: 380px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 100px;
+    
+
+}
+
+.yellow-block-text {
+    color: var(--White-Secondery-color, #FFF);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.yellow-block-small-text {
+    color: var(--White-Secondery-color, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.col{
+    width: 585px;
+    height: 600px;
+    background: green;
+}
